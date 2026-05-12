@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+<title>Validation</title>
+
+<script>
+
+function validate(){
+
+let name=document.getElementById("name").value;
+
+let email=document.getElementById("email").value;
+
+if(name==""){
+
+alert("Name cannot be empty");
+
+return false;
+
+}
+
+if(!email.includes("@")){
+
+alert("Invalid Email");
+
+return false;
+
+}
+
+alert("Form Submitted Successfully");
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<form onsubmit="return validate()">
+
+Enter Name:
+<input type="text" id="name">
+
+<br><br>
+
+Enter Email:
+<input type="text" id="email">
+
+<br><br>
+
+<input type="submit">
+
+</form>
+
+</body>
+
+</html>

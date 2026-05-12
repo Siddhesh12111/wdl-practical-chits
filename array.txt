@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+<title>Array Program</title>
+
+</head>
+
+<body>
+
+<?php
+
+$students=array("Siddhesh","Rohan","Amit","Priya");
+
+echo "<h2>Student Names</h2>";
+
+foreach($students as $value)
+{
+
+echo $value."<br>";
+
+}
+
+?>
+
+</body>
+
+</html>

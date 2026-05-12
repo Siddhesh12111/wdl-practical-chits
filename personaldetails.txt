@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Personal Details</title>
+</head>
+<body>
+<h1><b>Personal Details</b></h1>
+<p>
+<b>Name:</b> Siddhesh Thange<br>
+<i>Course:</i> Computer Engineering<br>
+<u>College:</u> SPPU<br>
+<strong>Email:</strong> siddhesh@gmail.com<br>
+<mark>City:</mark> Pune
+</p>
+</body>
+</html>

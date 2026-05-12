@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Image Hyperlink Table</title>
+</head>
+<body>
+
+<img src="nature.jpg" height="200" width="300">
+
+<br><br>
+
+<a href="https://www.google.com">
+Google
+</a>
+
+<br><br>
+
+<table border="1">
+
+<tr>
+<td>
+
+<table border="1">
+
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+
+<tr>
+<td>Siddhesh</td>
+<td>19</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>

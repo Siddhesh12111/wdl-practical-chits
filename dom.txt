@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+<title>DOM Example</title>
+
+<script>
+
+function changeText(){
+
+document.getElementById("demo").innerHTML=
+"Welcome Siddhesh";
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h2 id="demo">
+Hello
+</h2>
+
+<button onclick="changeText()">
+Click Here
+</button>
+
+</body>
+
+</html>

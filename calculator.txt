@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+<title>Calculator</title>
+
+<script>
+
+function calculator(){
+
+let num1=parseInt(prompt("Enter First number"));
+
+let num2=parseInt(prompt("Enter Second number"));
+
+let choice=prompt(
+"Enter operation(+,-,*,/)");
+
+let result;
+
+switch(choice){
+
+case "+":
+result=num1+num2;
+break;
+
+case "-":
+result=num1-num2;
+break;
+
+case "*":
+result=num1*num2;
+break;
+
+case "/":
+result=num1/num2;
+break;
+
+default:
+result="Invalid Choice";
+
+}
+
+document.write("Result = "+result);
+
+}
+
+calculator();
+
+</script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
